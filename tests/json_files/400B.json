@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "5671ebcfd88de5e8dac53641",
+    "index": 0,
+    "isActive": true,
+    "balance": "$3,951.98",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "email": "clementsvillarreal@daycore.com",
+    "phone": "+1 (882) 479-2331",
+    "address": "488 Grand Street, Hackneyville, Vermont, 5344",
+    "registered": "2015-04-12T05:27:22 +07:00",
+    "latitude": -57.256693,
+    "longitude": 49.961028
+  }
+]

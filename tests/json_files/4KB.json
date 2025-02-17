@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "5671eb1b60a382ffb56b3946",
+    "index": 0,
+    "guid": "8938d485-7ea7-4b57-ab02-cd7ff698a57e",
+    "isActive": true,
+    "balance": "$3,138.66",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "blue",
+    "name": "Susanne Wright",
+    "gender": "female",
+    "company": "VIXO",
+    "email": "susannewright@vixo.com",
+    "phone": "+1 (836) 581-2698",
+    "address": "367 Clifford Place, Benson, Northern Mariana Islands, 4627",
+    "about": "Irure officia enim reprehenderit exercitation aute enim incididunt incididunt nulla pariatur. Fugiat ut id culpa voluptate ea ipsum fugiat magna sunt quis duis. In id ad magna aliquip ad deserunt elit occaecat adipisicing adipisicing culpa ipsum fugiat. Nostrud amet ad enim tempor ex qui sunt proident excepteur ad. Nulla laborum do excepteur ex magna do amet laboris ad exercitation voluptate nostrud. Aliqua reprehenderit tempor minim dolore et elit nisi aliqua do minim.",
+    "registered": "2014-04-08T08:33:16 +07:00",
+    "latitude": 50.346425,
+    "longitude": -78.917993,
+    "tags": [
+      "id",
+      "elit",
+      "veniam",
+      "do",
+      "enim",
+      "quis",
+      "mollit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "York Spencer"
+      },
+      {
+        "id": 1,
+        "name": "Collins Byers"
+      },
+      {
+        "id": 2,
+        "name": "May Moses"
+      }
+    ],
+    "greeting": "Hello, Susanne Wright! You have 2 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5671eb1b9b55c4f32ca27ab4",
+    "index": 1,
+    "guid": "8f885aa5-31a2-4038-9be7-516d9929ace5",
+    "isActive": false,
+    "balance": "$1,891.11",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "blue",
+    "name": "Priscilla Dunn",
+    "gender": "female",
+    "company": "GEEKOLA",
+    "email": "priscilladunn@geekola.com",
+    "phone": "+1 (998) 404-3658",
+    "address": "232 Berriman Street, Elbert, Mississippi, 1870",
+    "about": "Dolore eu ea fugiat laboris excepteur duis. Non nostrud ipsum ex in ad. Veniam ex eu nisi in ea nisi aliqua consectetur. In magna proident velit aute ex dolore exercitation aliquip ullamco minim eu non aliqua nostrud. Ullamco nostrud minim laborum anim consectetur ipsum officia anim quis quis sint elit laborum. Lorem enim incididunt deserunt labore velit est aliquip aliqua dolore ea.",
+    "registered": "2015-01-08T07:41:20 +08:00",
+    "latitude": -34.112414,
+    "longitude": 161.53081,
+    "tags": [
+      "voluptate",
+      "veniam",
+      "ex",
+      "nostrud",
+      "veniam",
+      "enim",
+      "sunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Dale Mccarty"
+      },
+      {
+        "id": 1,
+        "name": "Alta Crane"
+      },
+      {
+        "id": 2,
+        "name": "Jessie Oconnor"
+      }
+    ],
+    "greeting": "Hello, Priscilla Dunn! You have 6 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5671eb1bd502ceed7784e04f",
+    "index": 2,
+    "guid": "d93c43c3-5c17-44c6-a5f3-1559d029e109",
+    "isActive": false,
+    "balance": "$2,951.78",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "eyeColor": "blue",
+    "name": "Oneal Weiss",
+    "gender": "male",
+    "company": "EXOPLODE",
+    "email": "onealweiss@exoplode.com",
+    "phone": "+1 (851) 479-2046",
+    "address": "415 Greenpoint Avenue, Belmont, Nevada, 460",
+    "about": "Esse consectetur voluptate esse mollit adipisicing cillum dolor. Aliquip laborum esse incididunt sint velit qui proident do consectetur fugiat velit laboris. Ea id non culpa consequat amet pariatur fugiat ad. Nostrud voluptate eu exercitation esse magna veniam magna voluptate laboris elit incididunt duis excepteur.",
+    "registered": "2014-05-20T01:28:58 +07:00",
+    "latitude": -67.429161,
+    "longitude": 60.312452,
+    "tags": [
+      "ullamco",
+      "velit",
+      "Lorem",
+      "culpa",
+      "anim",
+      "eiusmod",
+      "officia"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Bridgett Maynard"
+      },
+      {
+        "id": 1,
+        "name": "Mosley Hayden"
+      },
+      {
+        "id": 2,
+        "name": "Tammy Alford"
+      }
+    ],
+    "greeting": "Hello, Oneal Weiss! You have 5 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]

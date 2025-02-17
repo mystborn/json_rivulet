@@ -1,0 +1,235 @@
+[
+  {
+    "_id": "5af4c006873ec87e12466553",
+    "index": 0,
+    "guid": "cce48618-6953-4907-b641-288a68f2bd75",
+    "isActive": true,
+    "balance": "$3,677.14",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "blue",
+    "name": "Hampton Guerra",
+    "gender": "male",
+    "company": "GAPTEC",
+    "email": "hamptonguerra@gaptec.com",
+    "phone": "+1 (858) 595-2071",
+    "address": "282 Harden Street, Orason, Nebraska, 3912",
+    "about": "Tempor ullamco eu anim do officia eu commodo enim duis in Lorem elit sint. Laborum sunt excepteur dolor sunt officia. Incididunt et ex consectetur do duis qui aute reprehenderit adipisicing commodo Lorem quis. Aute irure dolor elit id excepteur duis aliquip nostrud adipisicing adipisicing dolore reprehenderit. Sint mollit nostrud nulla mollit pariatur non.",
+    "registered": "2018-01-13T04:23:04 +08:00",
+    "latitude": -43.202174,
+    "longitude": -34.173015,
+    "tags": [
+      "sint",
+      "consectetur",
+      "eiusmod",
+      "exercitation",
+      "deserunt",
+      "cillum",
+      "est"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Daugherty Jacobs"
+      },
+      {
+        "id": 1,
+        "name": "Olson Gonzalez"
+      },
+      {
+        "id": 2,
+        "name": "Gay Gilliam"
+      },
+      {
+        "id": 3,
+        "name": "Burgess Owens"
+      },
+      {
+        "id": 4,
+        "name": "Amelia Shannon"
+      },
+      {
+        "id": 5,
+        "name": "Deidre Mcpherson"
+      },
+      {
+        "id": 6,
+        "name": "Lester Huff"
+      },
+      {
+        "id": 7,
+        "name": "Amalia Parks"
+      },
+      {
+        "id": 8,
+        "name": "Tisha Guzman"
+      },
+      {
+        "id": 9,
+        "name": "William Stuart"
+      },
+      {
+        "id": 10,
+        "name": "Vincent Avila"
+      },
+      {
+        "id": 11,
+        "name": "Cook Atkinson"
+      },
+      {
+        "id": 12,
+        "name": "Luz Holt"
+      },
+      {
+        "id": 13,
+        "name": "Oliver George"
+      },
+      {
+        "id": 14,
+        "name": "Mack Bolton"
+      },
+      {
+        "id": 15,
+        "name": "Chris Mercado"
+      },
+      {
+        "id": 16,
+        "name": "Long Baldwin"
+      },
+      {
+        "id": 17,
+        "name": "Diann Crane"
+      },
+      {
+        "id": 18,
+        "name": "Love Kaufman"
+      },
+      {
+        "id": 19,
+        "name": "Mason Farley"
+      },
+      {
+        "id": 20,
+        "name": "Dora Kinney"
+      },
+      {
+        "id": 21,
+        "name": "Leah Sullivan"
+      },
+      {
+        "id": 22,
+        "name": "Janine Cochran"
+      },
+      {
+        "id": 23,
+        "name": "Jenny Diaz"
+      },
+      {
+        "id": 24,
+        "name": "Lana Drake"
+      },
+      {
+        "id": 25,
+        "name": "Meyer Baird"
+      },
+      {
+        "id": 26,
+        "name": "Warner Hopkins"
+      },
+      {
+        "id": 27,
+        "name": "Gilmore Mcfadden"
+      },
+      {
+        "id": 28,
+        "name": "Kelly Vincent"
+      },
+      {
+        "id": 29,
+        "name": "Imelda Sanford"
+      },
+      {
+        "id": 30,
+        "name": "Fran Green"
+      },
+      {
+        "id": 31,
+        "name": "Lucy Medina"
+      },
+      {
+        "id": 32,
+        "name": "Yang Tanner"
+      },
+      {
+        "id": 33,
+        "name": "Greene Bishop"
+      },
+      {
+        "id": 34,
+        "name": "Maryann Shepherd"
+      },
+      {
+        "id": 35,
+        "name": "Adrienne Hunter"
+      },
+      {
+        "id": 36,
+        "name": "Houston Dunlap"
+      },
+      {
+        "id": 37,
+        "name": "Mcclure Barnes"
+      },
+      {
+        "id": 38,
+        "name": "Curry Pittman"
+      },
+      {
+        "id": 39,
+        "name": "Madeleine Armstrong"
+      },
+      {
+        "id": 40,
+        "name": "Gretchen Tucker"
+      },
+      {
+        "id": 41,
+        "name": "Dunn Marquez"
+      },
+      {
+        "id": 42,
+        "name": "Theresa Woods"
+      },
+      {
+        "id": 43,
+        "name": "Garrison Forbes"
+      },
+      {
+        "id": 44,
+        "name": "Johnston Ratliff"
+      },
+      {
+        "id": 45,
+        "name": "Mcknight Cannon"
+      },
+      {
+        "id": 46,
+        "name": "Rich Figueroa"
+      },
+      {
+        "id": 47,
+        "name": "Gaines Walker"
+      },
+      {
+        "id": 48,
+        "name": "Matthews Wynn"
+      },
+      {
+        "id": 49,
+        "name": "Karina Cline"
+      }
+    ],
+    "greeting": "Hello, Hampton Guerra! You have 2 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+]

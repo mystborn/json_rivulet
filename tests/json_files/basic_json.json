@@ -1,0 +1,14 @@
+{
+  "age" : 30,
+  "first" : "John",
+  "last" : "Smith",
+  "phoneNumbers" : [
+    "425-000-1212",
+    "425-000-1213"
+  ],
+  "address" : {
+    "street" : "1 Microsoft Way",
+    "city" : "Redmond",
+    "zip" : 98052
+  }
+}
