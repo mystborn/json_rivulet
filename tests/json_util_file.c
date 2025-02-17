@@ -4,6 +4,7 @@
 
 #include <cJSON.h>
 #include <stdio.h>
+#include <sys/errno.h>
 
 
 #include "json_tests.h"
@@ -43,7 +44,7 @@ CompactTestCase large_files[] = {
     {false, "400 Kilobytes", "tests/400KB.json"},
 };
 
-const char* read_json_file(const char* filename) {
+char* read_json_file(const char* filename) {
     FILE* file = NULL;
     char* buffer = NULL;
     file = fopen(filename, "r");
@@ -58,6 +59,9 @@ const char* read_json_file(const char* filename) {
     }
 
     buffer = malloc(size + 1);
+    if (!buffer) {
+        goto error;
+    }
     buffer[size] = '\0';
 
     rewind(file);
@@ -84,9 +88,9 @@ error:
     return NULL;
 }
 
-const char* compact_json_file(const char* filename) {
-    const char* json_string = NULL;
-    const char* compact_json_string = NULL;
+char* compact_json_file(const char* filename) {
+    char* json_string = NULL;
+    char* compact_json = NULL;
     cJSON* json = NULL;
 
     json_string = read_json_file(filename);
@@ -99,7 +103,7 @@ const char* compact_json_file(const char* filename) {
         goto error;
     }
 
-    const char* compact_json = cJSON_PrintUnformatted(json);
+    compact_json = cJSON_PrintUnformatted(json);
     if (!compact_json) {
         goto error;
     }
@@ -109,9 +113,13 @@ const char* compact_json_file(const char* filename) {
 
     return compact_json;
 
-    error:
-    free(json_string);
-    free(compact_json);
+error:
+    if (json_string) {
+        free(json_string);
+    }
+    if (compact_json) {
+        free(compact_json);
+    }
     if (json) {
         cJSON_Delete(json);
     }

@@ -16,8 +16,8 @@ Suite* json_buffered_suite(void);
 bool expect_success(JsonStream* stream);
 bool expect_error(JsonStream* stream, JsonErrorType error);
 bool compare_full_buffer_to_cjson(const char* buffer, JsonStreamOptions options);
-const char* read_json_file(const char* filename);
-const char* compact_json_file(const char* filename);
+char* read_json_file(const char* filename);
+char* compact_json_file(const char* filename);
 
 typedef struct CompactTestCase {
   bool compact;

@@ -6,6 +6,7 @@
 #include <check.h>
 
 #include <_stdlib.h>
+#include <stdio.h>
 
 bool expect_success(JsonStream* stream) {
     return stream->error.type == JSON_ERROR_NONE;

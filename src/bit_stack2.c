@@ -22,7 +22,7 @@ static bool json_z_bits_push_current(JsonBitStack* bits) {
     return true;
 }
 
-static bool json_z_bits_pop_current(JsonBitStack* bits) {
+static void json_z_bits_pop_current(JsonBitStack* bits) {
     size_t index = ((bits->count - 63) / 63) - 1;
     bits->current = bits->array[index];
 }

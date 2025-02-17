@@ -46,8 +46,6 @@ typedef struct JsonRollbackState {
 
 static bool json_read_single_segment(JsonStream* stream);
 
-static bool json_read_multi_segment(JsonStream* stream);
-
 static bool json_skip_helper(JsonStream* stream);
 
 static bool json_try_skip_partial(JsonStream* stream, size_t target_depth);
@@ -1901,11 +1899,6 @@ static bool json_consume_multiline_comment(
 
     stream->token_type = JSON_TYPE_COMMENT;
     return true;
-}
-
-static bool json_read_multi_segment(JsonStream* stream) {
-    json_throw_string(stream, JSON_ERROR_NOT_IMPLEMENTED, __func__);
-    return false;
 }
 
 static bool json_helper_is_digit(char c) {

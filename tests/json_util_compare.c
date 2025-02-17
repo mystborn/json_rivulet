@@ -31,7 +31,6 @@ static bool compare_array(JsonStream* stream, const cJSON* cjson) {
 
 // NOLINTNEXTLINE(*-no-recursion)
 static bool compare_object(JsonStream* stream, const cJSON* cjson) {
-    int count = 0;
     while (json_read(stream)) {
         if (json_token_type(stream) == JSON_TYPE_OBJECT_END) {
             return true;

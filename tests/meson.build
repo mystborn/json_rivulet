@@ -15,3 +15,25 @@ fs.copyfile('json_files/lots_of_numbers.json', 'lots_of_numbers.json')
 fs.copyfile('json_files/lots_of_strings.json', 'lots_of_strings.json')
 fs.copyfile('json_files/project_lock.json', 'project_lock.json')
 fs.copyfile('json_files/special_num_format.json', 'special_num_format.json')
+
+stream_test_sources = [
+    'json_test_buffered.c',
+    'json_test_core.c',
+    'json_test_files.c',
+    'json_tests.c',
+    'json_util_compare.c',
+    'json_util_file.c'
+]
+
+json_tests = executable('json_tests', stream_test_sources,
+           c_args: test_args,
+           include_directories: test_headers,
+           link_with: json_stream_lib,
+           dependencies: [check_dep, cjson_dep]
+)
+
+test(
+    'json_rivulet_tests',
+    json_tests,
+    workdir: meson.current_build_dir()
+)
